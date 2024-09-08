@@ -2,6 +2,12 @@
 
 This Java Snake game, built with Swing, challenges players to navigate a snake using arrow keys, eat food to grow, and avoid collisions with the walls and itself. It features game-over logic and real-time score tracking, making it a valuable example for learning Java GUI design and basic game development principles.
 
+## Screenshots
+Here are some screenshots of the game:
+
+![Game Screenshot 1](GameScreenshot1.png)
+![Game Screenshot 2](GameScreenshot1.png)  
+
 ## Features
 - **Arrow Key Controls**: Navigate the snake in four directions.
 - **Growth Mechanics**: The snake grows longer each time it eats food.
@@ -32,8 +38,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Inspiration**: Classic arcade games.
 - **Libraries Used**: Java Swing for GUI development.
 - **Learning Resources**: Special thanks to Kenny Yip's coding YouTube videos, which provided valuable insights and guidance for developing this game.
-## Screenshots
-Here are some screenshots of the game:
 
-![Game Screenshot 1](GameScreenshot1.png)
-![Game Screenshot 2](GameScreenshot1.png)  
