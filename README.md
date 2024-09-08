@@ -32,3 +32,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 - **Inspiration**: Classic arcade games.
 - **Libraries Used**: Java Swing for GUI development.
 - **Learning Resources**: Special thanks to Kenny Yip's coding YouTube videos, which provided valuable insights and guidance for developing this game.
+## Screenshots
+Here are some screenshots of the game:
+
+![Game Screenshot 1](images/GameScreenshot1.png)
+![Game Screenshot 2](images/GameScreenshot2.png)
