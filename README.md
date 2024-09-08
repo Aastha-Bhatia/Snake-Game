@@ -36,4 +36,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Here are some screenshots of the game:
 
 ![Game Screenshot 1](GameScreenshot1.png)
-![Game Screenshot 2](GameScreenshot1.png)
+![Game Screenshot 2](GameScreenshot1.png)  
