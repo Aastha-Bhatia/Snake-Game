@@ -109,14 +109,23 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener{
         // drawing our game score
         g.setFont(new Font("Arial",Font.PLAIN,16));
         if(gameOver){
-            g.setColor(Color.black);
+            g.setColor(Color.WHITE);
             g.drawString("Game Over: "+ String.valueOf(snakeBody.size()), tileSize-16, tileSize);
+            // Draw the creator's name
+            String creatorMessage = "CREATED BY AASTHA BHATIA";
+            FontMetrics metrics = g.getFontMetrics(g.getFont());
+            int lineHeight = metrics.getHeight(); // Height of a single line of text
+            g.drawString(creatorMessage, tileSize - 16, tileSize + lineHeight+1);
         }
         else{
-            g.setColor(Color.BLACK);
+            g.setColor(Color.WHITE);
             g.drawString("Score: "+ String.valueOf(snakeBody.size()), tileSize-16, tileSize);
+            // Draw the creator's name
+            String creatorMessage = "CREATED BY AASTHA BHATIA";
+            FontMetrics metrics = g.getFontMetrics(g.getFont());
+            int lineHeight = metrics.getHeight(); // Height of a single line of text
+            g.drawString(creatorMessage, tileSize - 16, tileSize + lineHeight +1);
         }
-
     }
 
     public boolean collision(Tile tile1, Tile tile2){
@@ -200,7 +209,6 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener{
             velocityY=0;
         }
     }
-
 
     // we just need keypressed in our game, we just need to define the others, but we will work only on key pressed.
     @Override
