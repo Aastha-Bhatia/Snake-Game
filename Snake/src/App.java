@@ -1,3 +1,8 @@
+// Snake Game
+// Developed by: Aastha Bhatia
+// Description: A simple Snake game implementation using Java Swing.
+// Feel free to modify and distribute, but please retain this attribution.
+
 // importing the library
 import javax.swing.*;
 
